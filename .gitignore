@@ -1,0 +1,27 @@
+############################################################
+# KEEP (do NOT ignore): mods/, config/, defaultconfigs/,
+# kubejs/, resourcepacks/, shaderpacks/, journeymap/,
+# options.txt, servers.dat, usercache.json, etc.
+############################################################
+
+# --- Always safe to ignore (generated junk) ---
+logs/
+crash-reports/
+*.log
+*.log.gz
+hs_err_pid*.log
+
+# CurseForge / launcher caches & temp stuff
+.cache/
+downloads/
+
+# Shader cache (auto-regenerates)
+shadercache/
+
+# Resource pack cache (auto-regenerates)
+resourcepacks/.cache/
+
+# Windows / OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
