@@ -1,13 +1,13 @@
-# Tea Modpack (Forge 1.20.1) — Full Instance Share
+# Tea Modpack (Forge 1.20.1)
 
-This repo contains a **full Minecraft instance** (mods + configs + personal settings) so everyone can run the exact same setup without manual fixing (KubeJS mismatch, config differences, etc.).
+This repo contains a **full CurseForge MC instance** (mods + configs + personal settings) so everyone can run the exact same setup without manual fixing (KubeJS mismatch, config differences, etc.).
 
 ## What’s included
-- `mods/` (all mod .jar files)
-- `config/`, `defaultconfigs/`, `kubejs/` (pack behavior / scripts)
-- `resourcepacks/`, `shaderpacks/` (if present)
-- `journeymap/` (map data)
-- Personal settings: `options.txt`, `servers.dat`, `usercache.json`, `user-prefs.json`
+- `mods` (all mod .jar files)
+- `config`, `defaultconfigs`, `kubejs` (pack behavior / scripts)
+- `resourcepacks`, `shaderpacks`
+- `journeymap` (map data)
+- Personal settings
 - Other instance files as needed
 
 ## Requirements
@@ -21,24 +21,24 @@ This repo contains a **full Minecraft instance** (mods + configs + personal sett
 
 # Install (Choose your launcher)
 
-## A) CurseForge App (recommended for most people)
-1. Install **Minecraft 1.20.1 Forge** in CurseForge (create any Forge 1.20.1 profile).
-2. Open CurseForge → click the pack profile → **⋮** → **Open Folder** (or “Open Minecraft Folder”).
-3. Close Minecraft if it’s running.
-4. Download this repo as ZIP:
+## A) CurseForge App (recommended for legit people)
+1. Open [CurseForge](https://www.curseforge.com/download/app) → Choose Minecraft.
+2. Close Minecraft if it’s running.
+3. Download this repo as ZIP:
    - GitHub repo page → **Code** → **Download ZIP**
-5. Extract the ZIP.
-6. Copy everything from the extracted folder **into the CurseForge profile folder** (merge/overwrite when asked).
-7. Launch the profile.
+4. Don't Extract the ZIP.
+5. **Import** → **Choose .zip file** → Select the downloaded .zip file → Open.
+6. Click Play to Launch the profile.
 
 If you see “Incompatible FML modded server / Server mod list is not compatible”:
 - You are missing server-required mods or have wrong versions. Re-copy `mods/` from this repo and try again.
 
 ---
 
-## B) Prism Launcher
-1. Download this repo as ZIP and extract it.
-2. Prism → **Add Instance** → **Import** → choose the extracted folder.
+## B) Legacy Launcher (recommended for cracked)
+1. Download [Legacy Launcher](https://llaun.ch/en) (remove tlauncher files from your computer including in `%appdata%`) 
+2. Follow [A section](https://github.com/crishshato/tea-modpack?tab=readme-ov-file#a-curseforge-app-recommended-for-legit-people) to import mod profile to CurseForge.
+2. Then integrate it to your launcher, use this [guide](https://youtu.be/GNAjUdUppGM?si=9t8qDPdx9S2YOhzW) 
 3. Make sure the instance uses **Minecraft 1.20.1 + Forge**.
 4. Launch.
 
@@ -75,8 +75,7 @@ Fix:
 ---
 
 # Notes
-- This repo intentionally includes personal settings (`options.txt`, `journeymap/`, etc.) so everyone starts with the same experience.
-- Do not add/remove mods unless the whole group agrees; it will cause mismatch errors.
+- Do not add/remove mods; it will cause mismatch errors.
 
 ---
 
