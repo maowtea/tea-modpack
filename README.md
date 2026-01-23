@@ -25,8 +25,7 @@ This repo contains a **full CurseForge MC instance** (mods + configs + personal 
 ## A) CurseForge App (recommended for legit people)
 1. Open [CurseForge](https://www.curseforge.com/download/app) → Choose Minecraft.
 2. Close Minecraft if it’s running.
-3. Download this repo as ZIP:
-   - GitHub repo release page → **Download ZIP**
+3. Download ZIP in [release](https://github.com/maowtea/tea-modpack/releases)
 4. Don't Extract the ZIP.
 5. **Import** → **Choose .zip file** → Select the downloaded .zip file → Open.
 6. Click Play to Launch the profile.
