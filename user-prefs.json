@@ -8282,10 +8282,6 @@
         "isSelected": true
       },
       {
-        "path": "mods\\backpacked-forge-1.20.1-2.2.8.jar",
-        "isSelected": true
-      },
-      {
         "path": "mods\\better_mob_drops.jar",
         "isSelected": true
       },
@@ -8615,6 +8611,10 @@
       },
       {
         "path": "usercache.json",
+        "isSelected": false
+      },
+      {
+        "path": "Modpack-Version 1.0.zip",
         "isSelected": false
       }
     ],
