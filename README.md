@@ -3,6 +3,7 @@
 This repo contains a **full CurseForge MC instance** (mods + configs + personal settings) so everyone can run the exact same setup without manual fixing (KubeJS mismatch, config differences, etc.).
 
 ## What’s included
+- [CurseForge](https://www.curseforge.com/download/app) mod profile
 - `mods` (all mod .jar files)
 - `config`, `defaultconfigs`, `kubejs` (pack behavior / scripts)
 - `resourcepacks`, `shaderpacks`
@@ -19,13 +20,13 @@ This repo contains a **full CurseForge MC instance** (mods + configs + personal 
 
 ---
 
-# Install (Choose your launcher)
+# Install
 
 ## A) CurseForge App (recommended for legit people)
 1. Open [CurseForge](https://www.curseforge.com/download/app) → Choose Minecraft.
 2. Close Minecraft if it’s running.
 3. Download this repo as ZIP:
-   - GitHub repo page → **Code** → **Download ZIP**
+   - GitHub repo release page → **Download ZIP**
 4. Don't Extract the ZIP.
 5. **Import** → **Choose .zip file** → Select the downloaded .zip file → Open.
 6. Click Play to Launch the profile.
