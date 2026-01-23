@@ -8558,6 +8558,14 @@
         "isSelected": true
       },
       {
+        "path": "mods\\dynamiclights-v1.9-mc1.17-1.21.5-mod.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\Ping-1.20.1-1.10.2.jar",
+        "isSelected": true
+      },
+      {
         "path": "resourcepacks",
         "isSelected": true
       },
@@ -8614,7 +8622,7 @@
         "isSelected": false
       },
       {
-        "path": "Modpack-Version 1.0.zip",
+        "path": "Modpack v1.0.0.zip",
         "isSelected": false
       }
     ],
