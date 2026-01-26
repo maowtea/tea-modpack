@@ -1,0 +1,27 @@
+
+#Realistic Bobbing Client Settings
+[bobbing]
+	#Enable or disable realistic bobbing
+	enableBobbing = true
+	#Global multiplier for camera bobbing intensity
+	#Range: 0.0 ~ 10.0
+	globalStrength = 0.8
+	#Strength multiplier for hand bobbing
+	#Range: 0.0 ~ 5.0
+	handStrength = 1.0
+	#Base intensity multiplier for camera bobbing
+	#Range: 0.0 ~ 10.0
+	intensity = 1.2
+	#Left-right sway strength
+	#Range: 0.0 ~ 10.0
+	yawIntensity = 1.4
+	#Up-down sway strength
+	#Range: 0.0 ~ 10.0
+	pitchIntensity = 0.6
+	#Yaw sway frequency
+	#Range: 0.1 ~ 20.0
+	yawFrequency = 4.0
+	#Pitch sway frequency
+	#Range: 0.1 ~ 20.0
+	pitchFrequency = 8.0
+

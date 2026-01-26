@@ -1,0 +1,1 @@
+{"jarName":"skinrestorer-2.5.0+1.20-forge.jar","modId":"skinrestorer","version":"2.5.0+1.20-forge","mixinConfigs":["skinrestorer.mixins.json"],"jarJarMods":[{"jarName":"java-client-3.2.1-SNAPSHOT.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}]}

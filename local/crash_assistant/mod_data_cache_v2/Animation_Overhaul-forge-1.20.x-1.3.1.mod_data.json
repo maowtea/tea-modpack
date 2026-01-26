@@ -1,0 +1,1 @@
+{"jarName":"Animation_Overhaul-forge-1.20.x-1.3.1.jar","modId":"animation_overhaul","version":"1.3.1","mixinConfigs":["animation_overhaul.mixins.json"],"jarJarMods":[{"jarName":"playeranimator-1.0.2-rc1+1.20-forge.jar","modId":"playeranimator","version":"1.0.2-rc1+1.20","mixinConfigs":["playerAnimator-common.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

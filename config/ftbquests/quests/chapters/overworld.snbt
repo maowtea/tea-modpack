@@ -1,0 +1,521 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "overworld"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "nightmaremode:nightmare_star"
+	id: "145FB47C8255DFFE"
+	images: [
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lA place hopeless, desolate and barren, in this parallel universe you do not belong, yet you persist.&r&4"
+				""
+				"&lAlso, im only here to guide you&r&o"
+				""
+				"&l&4Oh yea and also if you don't like the shaders press n + f5&r&r"
+				""
+				""
+				"Join the discord server https://discord.gg/TGTYTW7hZ6 (impossible to add hiperlinks in this shi istg)"
+			]
+			id: "714699A33A9FBE78"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Your character woke up much later than usuall, an evil entity has now taken control of all evil roaming the land, its your mission to put an end to th- blah blah blah go shoot some zombies god dammit!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "475EDB6ED738A226"
+				type: "dimension"
+			}]
+			title: "Nightmare!"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["714699A33A9FBE78"]
+			description: ["&4Not like that matters as you get 2 tapped anyways&r"]
+			id: "1E5E9E591364F1B1"
+			rewards: [
+				{
+					id: "01BECEF726917892"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 12
+					id: "14E5C30A2D263B8D"
+					item: "pointblank:ammo12gauge"
+					type: "item"
+				}
+			]
+			subtitle: "The odds of getting infected are lowered"
+			tasks: [{
+				id: "0EEAA2F365A70D83"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			title: "Cure for the Infection"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0987F0C1B0C84E11"]
+			id: "1EB85EAE5A6200AC"
+			rewards: [
+				{
+					id: "3B0501ACFC3996B0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 32
+					id: "227A0BFF4CB20A6D"
+					item: "pointblank:ammo12gauge"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Go go go!"
+			tasks: [{
+				id: "134AD6008257D76F"
+				item: "pointblank:doom_argent_ingot"
+				type: "item"
+			}]
+			title: "Fight Quake With Doom"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EB85EAE5A6200AC"]
+			id: "0089366739B69D93"
+			rewards: [{
+				id: "1B146148040321D6"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Congratulations, it only took fusing together 4 diffrent ingots from alternate dimensions to unlock some cool guns"
+			tasks: [{
+				id: "3AAC4CBE2C87AA8C"
+				item: "nightmaremode:hardenedgunmetalingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["714699A33A9FBE78"]
+			id: "0ED93EE72C0F4B6C"
+			rewards: [{
+				id: "518512A60E1509C9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Items can have attributes, you can reroll them here"
+			tasks: [{
+				id: "1EFCC10CDBAE995C"
+				item: "quality_equipment:reforging_station"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["714699A33A9FBE78"]
+			id: "214E6DD62FD90762"
+			rewards: [{
+				id: "2171D485FDC1A2E1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Set your respawn point!"
+			tasks: [{
+				id: "53B5BA30B0734E3A"
+				item: "nightmaremode:nightmare_spawnpoint"
+				type: "item"
+			}]
+			title: "Skill Issue Remover"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0EEAA2F365A70D83"
+				"1E5E9E591364F1B1"
+			]
+			id: "30013663F4A5662F"
+			rewards: [{
+				id: "1341C134EBC7DFA6"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Drops from mutants, and rarely shamblers, collect enough to make a heart container"
+			tasks: [{
+				id: "2ABBD8661D5D4AD0"
+				item: "nightmaremode:heart_shard"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0987F0C1B0C84E11"]
+			description: ["Im not kidding this time, Also fun fact : this armor set exists in the original CW, however there it's not craftable"]
+			id: "2447559C5451E950"
+			rewards: [{
+				id: "229728AB4CF6CE08"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			subtitle: "Best armor in the game"
+			tasks: [{
+				id: "55D9A54A9C9B5233"
+				item: "nightmaremode:xan_chip"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0987F0C1B0C84E11"]
+			description: ["25% drop rate, also they craft into a bunch of cool stuff check it out"]
+			id: "0C892F69B06B1331"
+			rewards: [{
+				id: "2FB70B7F533BA91C"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			subtitle: "Kill Mutants"
+			tasks: [{
+				id: "1C105AFDB5DC1F30"
+				item: "nightmaremode:nightmare_star"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C892F69B06B1331"]
+			id: "7343D97A7D33E8D7"
+			rewards: [{
+				id: "475D511A92453942"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			subtitle: "Let's Rock!"
+			tasks: [{
+				id: "089D6DEF83FC6365"
+				item: "nightmaremode:keycard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B2614686617336F"]
+			icon: "minecraft:skeleton_skull"
+			id: "0C9B1F8E5C07475C"
+			rewards: [
+				{
+					id: "2C1FFF3BE4C748EE"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "6362A8F38D6680C6"
+					item: "nightmaremode:anti_gravity_belt"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "36B863742C1B8E26"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "The dragons skin is thick, you need high-calibers to take it down"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "105A8EEF0F8CD9D8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Take down the vile beast!"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["28B8A07B8C9F4A80"]
+			description: ["            [SECRET DIMENSION]"]
+			hide_until_deps_complete: true
+			id: "1B2614686617336F"
+			rewards: [{
+				id: "3DCCAC6062D9996B"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "How did we get here?"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "3BE7210E5141FEA2"
+				title: "\"End Dimension\""
+				type: "dimension"
+			}]
+			title: "Eternity, Dissolutioned"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["714699A33A9FBE78"]
+			description: ["You should know where the portal is"]
+			icon: "the_deeper_void:abyssal_bedrock"
+			id: "0987F0C1B0C84E11"
+			rewards: [{
+				id: "464305EAA738E88C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "Descent Into The Void."
+			tasks: [{
+				dimension: "the_deeper_void:void_dimension"
+				icon: "the_deeper_void:abyssal_bedrock"
+				id: "1D1E730FD0461D65"
+				title: "Void"
+				type: "dimension"
+			}]
+			title: "Place Of Hate"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7343D97A7D33E8D7"]
+			description: ["Now go back to the starting bunker, find the door that allows you to access the slipgate, its the only way to stop this madness!"]
+			id: "28B8A07B8C9F4A80"
+			rewards: [{
+				id: "31796C4AB083894A"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			subtitle: "You got the keycard"
+			tasks: [{
+				dimension: "nightmaremode:final_destination"
+				icon: "nightmaremode:forever_stone"
+				id: "4FFD15CDAA593572"
+				title: "Final Destination"
+				type: "dimension"
+			}]
+			title: "The Great Run Back"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28B8A07B8C9F4A80"]
+			id: "0E3470EE6687415D"
+			rewards: [{
+				id: "25405055801FD2B0"
+				type: "xp"
+				xp: 5000
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Only 1 Chance to do this"
+			tasks: [{
+				entity: "nightmaremode:xan"
+				icon: "nightmaremode:nightmare_star"
+				id: "70254B1A994EFFDC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["714699A33A9FBE78"]
+			id: "2F5C6DB1451C23D9"
+			rewards: [{
+				id: "588759B9044BD10C"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			subtitle: "Used for reforging baubles with emeralds"
+			tasks: [{
+				id: "6E1322940427C04A"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F5C6DB1451C23D9"]
+			description: ["They don't do anything by themselves, but you can reforge them for buffs, also note : the damage buff from the \"powerful\" attribute is for melee weapons only!"]
+			id: "6B6CBC58D96EDA5D"
+			rewards: [
+				{
+					count: 4
+					id: "294E05C057A6DBB7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0A14D9060553532F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "You'll need them if you are bad at the game"
+			tasks: [
+				{
+					id: "39B477B6962EA31F"
+					item: "nightmaremode:plated_titanium"
+					type: "item"
+				}
+				{
+					id: "5A97B3708603AE28"
+					item: "nightmaremode:plated_steel"
+					type: "item"
+				}
+				{
+					id: "4CD30213991048D0"
+					item: "nightmaremode:tungsten_sheet"
+					type: "item"
+				}
+			]
+			title: "Baubles"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28B8A07B8C9F4A80"]
+			description: ["How long did it take you...?"]
+			id: "69BE0504E03AC0D8"
+			rewards: [
+				{
+					id: "669BE64FFAB27FE3"
+					type: "xp"
+					xp: 15000
+				}
+				{
+					id: "7A1566DE090B4F25"
+					item: "pointblank:doom_bfg9000"
+					type: "item"
+				}
+				{
+					id: "67AB0F1D72EAE231"
+					item: "pointblank:quake_thunderbolt"
+					type: "item"
+				}
+				{
+					id: "60E883506E118DED"
+					item: "pointblank:doom_rocketlauncher"
+					type: "item"
+				}
+				{
+					count: 400
+					id: "108EDD36D7214E01"
+					item: "pointblank:quake_thunderboltcell"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "7F29C2BD693F4E26"
+					item: "pointblank:doom_argentblastcharge"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "77EE03D93D088D61"
+					item: "pointblank:doom_argentrocket"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "I give up, you've bested this modpack!"
+			tasks: [{
+				entity: "nightmaremode:the_man_himself"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1305834994
+								1925662182
+								-1450868900
+								-708069456
+							]
+							Name: "manemajeffa2"
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTc2NzY5NzQxMDQ5OSwKICAicHJvZmlsZUlkIiA6ICI0ZGQ1NzVmMjcyYzc0NWU2YTk4NTdmNWNkNWNiYjdiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYW5lbWFqZWZmYTIiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmYyNTVmYjM5OTlkYmViNGU0OWNlN2IwZTI2ODdlZmUxMmI4NWIyODI3Nzk2M2Y5NDRmOGI0M2Y5NjA5NDFlYSIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+					}
+				}
+				id: "13DB082D7E6E86CB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Unbelieveable"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["714699A33A9FBE78"]
+			description: ["If you know anything about PB you know how annoying it is to make ammo, so to fix that i added ammo crates (scroll down in the printers GUI)"]
+			id: "2C4C18A0A83E5335"
+			rewards: [{
+				id: "3FDA76D8F818829E"
+				item: "pointblank:ammobox12"
+				type: "item"
+			}]
+			subtitle: "Making ammo"
+			tasks: [{
+				id: "41ECE6B41A5C0758"
+				item: "pointblank:printer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+	]
+	title: "Parallel Dimension"
+}

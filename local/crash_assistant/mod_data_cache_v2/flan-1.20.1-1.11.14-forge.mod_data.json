@@ -1,0 +1,1 @@
+{"jarName":"flan-1.20.1-1.11.14-forge.jar","modId":"flan","version":"1.20.1-1.11.14","mixinConfigs":["flan.forge.mixins.json","flan.mixins.json"],"jarJarMods":[{"jarName":"lingua_bib-1.20.1-1.0.4-forge.jar","modId":"lingua_bib","version":"1.20.1-1.0.4","mixinConfigs":["lingua_bib.mixins.json","lingua_bib.forge.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

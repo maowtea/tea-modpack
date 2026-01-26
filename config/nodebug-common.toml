@@ -1,0 +1,5 @@
+#Disable F5(camera mode switching) for survival players
+disablef5 = false
+#Sets players' perspectives if F5 is disabled / FIRST_PERSON / THIRD_PERSON_BACK / THIRD_PERSON_FRONT
+fixedcameramode = "FIRST_PERSON"
+

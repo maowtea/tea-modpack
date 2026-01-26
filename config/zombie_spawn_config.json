@@ -1,0 +1,36 @@
+{
+  "maxZombiesPerPlayer": 8,
+  "maxZombieDistance": 100,
+  "enableNether": false,
+  "enableEnd": false,
+  "validSpawnBlocks": [
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:moss_block",
+    "minecraft:netherrack",
+    "minecraft:basalt",
+    "minecraft:end_stone"
+  ],
+  "allowedDimensions": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ],
+  "dimensionSettings": {
+    "minecraft:overworld": {
+      "spawnChance": 80,
+      "minSpawnCount": 1,
+      "maxSpawnCount": 2
+    },
+    "minecraft:the_nether": {
+      "spawnChance": 75,
+      "minSpawnCount": 2,
+      "maxSpawnCount": 4
+    },
+    "minecraft:the_end": {
+      "spawnChance": 85,
+      "minSpawnCount": 3,
+      "maxSpawnCount": 4
+    }
+  }
+}

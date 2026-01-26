@@ -1,0 +1,44 @@
+[
+    {
+        "section": "Cursed Walking - Nightmare!",
+        "disciplines": [
+            {
+                "discipline": "Developers",
+                "titles": [
+                    {
+                        "title": "Main Developers",
+                        "names": [
+                            "Manemajeffa2",
+                            "Onmod"
+                        ]
+                    },
+                    {
+                        "title": "Worldbuilding",
+                        "names": [
+                            "Manemajeffa2"
+                        ]
+                    },
+                    {
+                        "title": "Configuration",
+                        "names": [
+                            "Manemajeffa2"
+                        ]
+                    },
+                    {
+                        "title": "Special Thanks",
+                        "names": [
+                            "Ashley Nox",
+                            "Lean",
+                            "Onmod",
+                            "AdversePond7",
+                            "Frosty",
+                            "Raph",
+                            "Quake",
+                            "And You!"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

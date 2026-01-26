@@ -1,0 +1,4 @@
+#The chance for a bat to drop guano every 10 ticks (0.5 seconds). Default is 0.01 (1%).
+#Range: 0.0 ~ 1.0
+batGuanoDropChance = 0.01
+
