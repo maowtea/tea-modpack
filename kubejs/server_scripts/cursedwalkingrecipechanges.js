@@ -1,3 +1,5 @@
+//Part of code created by MC7, modified by Onmod
+
 ServerEvents.recipes(event => {
     console.log('CW Recipe Tweaks has fired.')
     
@@ -15,6 +17,26 @@ ServerEvents.recipes(event => {
         C: 'the_deep_void:bismuth'
       }
     )
+
+    //<<<<<<< MC7-Gold-Dupe-Patch
+    
+   // patch the infinite gold/xp crystals bug where you could infinitely recycle gilded blackstone. You can still crush it, but you can no longer make it.
+    event.remove({ output: "minecraft:gilded_blackstone"})
+    event.remove({ id: "create:crushing/gilded_blackstone"})
+//=======//
+   // resolves #31, conflict with create radars 
+   event.remove({ id: "decorative_blocks:bar_panel"})
+   event.shaped(
+       Item.of("decorative_blocks:bar_panel", 4),
+       [
+           'AA',
+           'AA'
+       ],
+       {
+           A: 'minecraft:iron_bars'
+       }
+    )
+//>>>>>>> v3.1.1
 /*
     //Changes the recipe of the tacz gun workbench.
     event.shaped(

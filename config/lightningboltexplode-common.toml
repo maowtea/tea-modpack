@@ -1,0 +1,11 @@
+
+["Lightning Bolt Explode Settings"]
+	#Enable/Disable the lightning explosion feature
+	enabled = true
+	#Explosion power when lightning strikes (1 to 10, default 1 = Wither skull)
+	#Range: 1 ~ 10
+	explosionPower = 1
+	#Number of fire blocks to place after lightning strike (1 to 10)
+	#Range: 1 ~ 10
+	fireCount = 4
+

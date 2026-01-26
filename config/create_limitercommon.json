@@ -1,0 +1,10 @@
+{
+  "max_create_weight_per_player": 50,
+  "weight_create:mechanical_drill": 3,
+  "weight_create:mechanical_saw": 1,
+  "weight_create:spout": 1,
+  "weight_create:chute": 2,
+  "weight_create:smart_chute": 2,
+  "weight_create:fluid_pipe": 1,
+  "weight_create:smart_fluid_pipe": 1  
+}

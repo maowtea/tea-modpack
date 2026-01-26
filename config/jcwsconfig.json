@@ -1,0 +1,20 @@
+{
+  "water_proofing_power": 1,
+  "waterlog_proofing_power": 1,
+  "zombie_swim_speed_increase_chance": 1,
+  "zombie_swim_speed_raw": 5,
+  "zombie_reinforcements_chance": 0.1,
+  "zombie_reinforcements_raw": 0.25,
+  "sight_range_chance": 0,
+  "sight_range_raw": 128,
+  "zombie_spam": "true",
+  "zombie_spam_persistent": "false",
+  "zombie_spam_timer": 400,
+  "zombie_spam_block_range": 74,
+  "mutant_zombie_hp_reduction": 0,
+  "zombie_vigilance": "true",
+  "zombie_vigilance_range": 50,
+  "zombie_vigilance_override_line_of_sight": "true",
+  "rotten_flesh_infect": "false",
+  "foxweed_bonemealing": "false"
+}

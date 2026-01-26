@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "mob": "mutantmonsters:mutant_zombie",
+        "player": true,
+        "item": "pointblank:gunmetal_nugget",
+        "itemcount": 8
+        
+    },
+
+    {
+        "mob": "mutantmonsters:mutant_zombie",
+        "player": true,
+        "item": "minecraft:rotten_flesh",
+        "itemcount": 10
+        
+      }
+]

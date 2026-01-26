@@ -1,0 +1,53 @@
+[
+	"minecraft:zombie-20-0-20",
+	"minecraft:zombie-10-20-30",
+	"minecraft:husk-15-20-30",
+	"minecraft:zombie-5-30-30",
+	"minecraft:husk-20-30-50",
+	"minecraft:husk-10-40-50",
+	"minecraft:zombie-10-40-50",
+	"minecraft:husk-5-40-50",
+	"minecraft:husk-10-40-50",
+	"minecraft:zombified_piglin-10-40-50",
+	{
+		"entity": "minecraft:zombie_horse",
+		"weight": 3,
+		"first_day": 40,
+		"last_day": 50,
+		"nbt": "{Passengers:[{id:zombie}]}"
+	},
+	"minecraft:zombie-10-50-0",
+	"minecraft:zombie-5-50-50",
+	"minecraft:husk-10-50-50",
+	"minecraft:zombie-5-40-40",
+	"minecraft:husk-5-50-50",
+	"minecraft:zombie-5-50-50",
+	"minecraft:husk-10-60-0",
+	{
+		"entity": "minecraft:zombie",
+		"weight": 15,
+		"first_day": 60,
+		"last_day": 0,
+		"nbt": "{Passengers:[{id:stray,HandItems:[{id:iron_sword,Count:1b}]}]}"
+	},
+	{
+		"entity": "minecraft:zombie_horse",
+		"weight": 3,
+		"first_day": 60,
+		"last_day": 0,
+		"nbt": "{Passengers:[{id:drowned,HandItems:[{id:trident,Count:1b}]}]}"
+	},
+	{
+		"entity": "minecraft:zombie_horse",
+		"weight": 8,
+		"first_day": 60,
+		"last_day": 0,
+		"nbt": "{Passengers:[{id:husk}]}"
+	},
+	{
+		"entity": "minecraft:zombie",
+		"weight": 10,
+		"first_day": 60,
+		"last_day": 0
+	}
+]

@@ -1,0 +1,196 @@
+{
+  "maxDurability": 4000,
+  "inaccuracyRate": 2000,
+  "doGunsBreak": false,
+  "jamChance": 0,
+  "biomeModifiers": [
+    {
+      "biomeName": "minecraft:desert",
+      "multiplier": 1.5
+    },
+    {
+      "biomeName": "minecraft:river",
+      "multiplier": 2.0
+    },
+    {
+      "biomeName": "minecraft:plains",
+      "multiplier": 0.8
+    }
+  ],
+  "unjammableList": [
+    "tacz:db_short",
+    "tacz:db_long"
+  ],
+  "durabilityList": [
+    {
+      "gunId": "hamster:sks",
+      "maxDurability": 750,
+      "jamMultiplier": 2.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:m1887",
+      "maxDurability": 400,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:one_barrel",
+      "maxDurability": 300,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:mp18",
+      "maxDurability": 1000,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:mosin9130",
+      "maxDurability": 200,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:gew98",
+      "maxDurability": 200,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "tacz:springfield1873",
+      "maxDurability": 200,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:win1894",
+      "maxDurability": 400,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:type99",
+      "maxDurability": 200,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:gras1874",
+      "maxDurability": 200,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:m1903",
+      "maxDurability": 200,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:smle_mk3",
+      "maxDurability": 250,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:sharps",
+      "maxDurability": 100,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:martinihenry",
+      "maxDurability": 100,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:lebel1886",
+      "maxDurability": 250,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:luger1906",
+      "maxDurability": 250,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:berthier",
+      "maxDurability": 200,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:webley",
+      "maxDurability": 500,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:m1879revolver",
+      "maxDurability": 500,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:lugerp08",
+      "maxDurability": 750,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:coltm1851",
+      "maxDurability": 750,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:sw_mk2",
+      "maxDurability": 500,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "tacz:m249",
+      "maxDurability": 5000,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "hamster:colt1873",
+      "maxDurability": 500,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "sfms:lvsa_c_erode_lmg",
+      "maxDurability": 7500,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    }
+  ],
+  "debug": true,
+  "durabilityItems": [
+    {
+      "id": "gundurability:wd_40",
+      "durability": 2.5,
+      "uses": 8,
+      "slot": "MISC",
+      "maxDurability": 50.0,
+      "minDurability": 0.0
+    },
+    {
+      "id": "gundurability:brass_brush",
+      "durability": 2.5,
+      "uses": 8,
+      "slot": "MISC",
+      "maxDurability": 100.0,
+      "minDurability": 50.0
+    }
+  ],
+  "creativeTab": "gundurability:brass_brush"
+}

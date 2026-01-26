@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 763,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -11,8 +11,8 @@
     "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
-    "clientId": "450485984333660181",
-    "defaultIcon": "grass",
+    "clientId": "1444651937600503959",
+    "defaultIcon": "presence2",
     "enableJoinRequests": false,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
@@ -22,7 +22,7 @@
     "fallbackBiomeIcon": "unknown",
     "biomeData": {
       "default": {
-        "textOverride": "Playing in {biome.name}"
+        "textOverride": "Expierencing Severe Trauma in {biome.name}"
       }
     }
   },
@@ -30,7 +30,7 @@
     "fallbackDimensionIcon": "unknown",
     "dimensionData": {
       "default": {
-        "textOverride": "In the {dimension.name}"
+        "textOverride": "Living In a Nightmare {dimension.name}"
       }
     }
   },
@@ -40,10 +40,10 @@
     "fallbackServerMotd": "A Minecraft Server",
     "serverData": {
       "default": {
-        "textOverride": "Playing on {server.motd.raw}"
+        "textOverride": "Quaking on {server.motd.raw}"
       }
     },
-    "pingRateInterval": 5,
+    "pingRateInterval": 3,
     "pingRateUnit": "minutes"
   },
   "statusMessages": {
@@ -57,7 +57,7 @@
       "textOverride": "Playing on a LAN Server"
     },
     "singleplayerData": {
-      "textOverride": "Playing Singleplayer"
+      "textOverride": "Suffering Alone Singleplayer"
     },
     "realmData": {
       "textOverride": "Playing on {server.motd.raw}"
@@ -101,15 +101,14 @@
     "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10,
-    "enableClassGraph": false,
-    "useClassLoader": false
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "languageId": "en_us",
     "stripTranslationColors": false,
     "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
-    "configKeyCode": -1
+    "configKeyCode": 96
   },
   "displaySettings": {
     "presenceData": {
@@ -126,20 +125,10 @@
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
-    "dynamicIcons": {
-      "default": "https://via.placeholder.com/256.png",
-      "seaofstars.ddns.net": "https://api.mcsrvstat.us/icon/seaofstars.ddns.net",
-      "MiaoTea": "https://mc-heads.net/avatar/44bbc80cb2ce4d69bff818f363a33be2"
-    },
+    "dynamicIcons": {},
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",

@@ -1,7 +1,7 @@
 {
   "disableVanillaPortals": {
     "desc:": "Disables vanilla portals, default:false",
-    "disableVanillaPortals": false
+    "disableVanillaPortals": true
   },
   "teleportCooldown": {
     "desc:": "Sets a delay before you can teleport again, default:15 seconds",
@@ -9,7 +9,7 @@
   },
   "instantTeleport": {
     "desc:": "Instantly teleports instead of notifying the user over time,(Note this causes some lag, due to loading chunks directly) default:false",
-    "instantTeleport": false
+    "instantTeleport": true
   },
   "teleportedRidden": {
     "desc:": "Teleport ridden entities too, default:true",
@@ -26,54 +26,23 @@
   "dimensionconnections": [
     {
       "from": "minecraft:overworld",
-      "to": "minecraft:the_nether",
-      "xcoordmultiplier": 0.125,
-      "zcoordmultiplier": 0.125,
+      "to": "the_deep_void:deep_void",
+      "xcoordmultiplier": 0.0,
+      "zcoordmultiplier": 0.0,
       "teleporttype": {
         "teleporttype": "AIR",
         "teleport_to_y": 125
       },
-      "belowy": -60,
-      "slowfallticks": 400
+      "belowy": -63
     },
     {
-      "from": "minecraft:the_end",
+      "from": "the_deep_void:deep_void",
       "to": "minecraft:overworld",
-      "teleporttype": {
-        "teleporttype": "AIR",
-        "teleport_to_y": 300
-      },
-      "belowy": 0,
-      "slowfallticks": 400
-    },
-    {
-      "from": "minecraft:the_nether",
-      "to": "minecraft:the_nether",
-      "teleporttype": {
-        "teleporttype": "CAVE",
-        "teleport_to_y": 4
-      },
-      "belowy": 0
-    },
-    {
-      "from": "minecraft:the_nether",
-      "to": "minecraft:overworld",
-      "xcoordmultiplier": 8.0,
-      "zcoordmultiplier": 8.0,
       "teleporttype": {
         "teleporttype": "CAVE",
         "teleport_to_y": -60
       },
-      "abovey": 121
-    },
-    {
-      "from": "minecraft:overworld",
-      "to": "minecraft:overworld",
-      "teleporttype": {
-        "teleporttype": "AIR",
-        "teleport_to_y": 360
-      },
-      "abovey": 364
+      "abovey": 145
     }
   ]
 }

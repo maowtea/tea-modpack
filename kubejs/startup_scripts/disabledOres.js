@@ -2,7 +2,6 @@
 
 WorldgenEvents.remove(event=>{
     event.removeOres(props=>{
-        props.blocks = ['k_turrets:titanium_ore','k_turrets:deepslate_titanium_ore']
-        //for the record, the wiki states tags cannot be used here. if we want more blocks disabled, add more block ids individually in the array like ['k_turrets:titanium_ore','OTHERID']
+        props.blocks = ['ihmt:cassiterite_ore','ihmt:cassiterite_ore','ihmt:bauxite_ore','ihmt:deepslate_bauxite_ore']
     })
 })

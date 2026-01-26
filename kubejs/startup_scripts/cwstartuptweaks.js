@@ -1,32 +1,101 @@
-/*console.info('CW Tweaks Startup scripts successfully loaded.')
-//untested vvv
-Platform.mods.kubejs.name = 'Cursed Walking'
-//untested ^^^
+console.log('CW Tweaks Startup scripts successfully loaded.')
+
+StartupEvents.registry('block', event => {
+
+  // Script written by MC7 / AdversePond. 
+  // Texture work done by Keerdm.
+  event.create('sweet_berry_crate')
+    .displayName('Sweet Berry Crate')
+    .soundType('wood')
+    .hardness(1.0)
+    .resistance(1.0)
+    .tagBlock('minecraft:mineable/axe')
+
+    .textureAll('kubejs:block/sb_side')
+    .texture('up', 'kubejs:block/sb_top')
+    .texture('down', 'kubejs:block/sb_bottom')
+
+  //Script written by Onmod, adapted from MC7 / AdversePond.
+  //Texture work done by ActiveRadar and Onmod, partially adapted from texture by Mojang Studios
+  event.create('gunpowder_barrel')
+    .displayName('Gunpowder Barrel')
+    .soundType('wood')
+    .hardness(1.0)
+    .resistance(1.0)
+    .tagBlock('minecraft:mineable/axe')
+
+    .textureAll('kubejs:block/gb_side1')
+    .texture('up', 'kubejs:block/gb_top')
+    .texture('down', 'kubejs:block/gb_bottom')
+});
+
 StartupEvents.registry('item', event => {
-   // event.create('hardened_spring').maxStackSize(64).tooltip('not barel').displayName('Hardened Spring')
-    //deprecated features.
-  //  event.create('hardened_trigger').maxStackSize(64).tooltip('trigah').displayName('Trigger')
-   // event.create('rubber_sheet').maxStackSize(64).tooltip('rubbahsheeet').displayName('Rubber Sheet')
-  //  event.create('advanced_gun_interals').maxStackSize(64).displayName('Advanced Gun Internals')
-   // event.create('stock').maxStackSize(64).displayName('Stock')
-   // event.create('bipod').maxStackSize(64).displayName('Bipod')
-   // event.create('magazine').maxStackSize(64).displayName('Magazine')
-   // event.create('small_spring').maxStackSize(64).displayName('Small Spring')
-  //event.create('unfinished_reinforced_barrel').maxStackSize(1).displayName('Unfinished Reinforced Barrel')
-    //event.create('reinforced_barrel').maxStackSize(1).displayName('Reinforced Barrel')
-// create sequenced assembly stuff.
-// bugged. Will fix in later release.    event.create('incomplete_small_spring', 'create:sequenced_assembly').displayName('Incomplete Small Spring')
-  event.create('kubejs:incomplete_reinforced_barrel', 'create:sequenced_assembly').displayName('Incomplete Reinforced Barrel')
-  event.create('kubejs:filled_rubber_mold').maxStackSize(16).displayName('Filled Rubber Mold')
-// lack of cwa stuff
-  event.create('rubbersheet').maxStackSize(1).displayName('Rubber Sheet')
-  event.create('gunsteel').maxStackSize(1).displayName('Gunsteel')
-  event.create('unfinished_reinforced_barrel').maxStackSize(1).displayName('Unfinished Reinforced Barrel')
+  
+  //Script wrote by Onmod, textures done by ActiveRadar
+  event.create('circuit_board')
+    .displayName('Circuit Board')
+    .texture('kubejs:item/cw_circuit_board')
+    .tooltip(['A piece of tech used in some advanced recipes'])
+    .rarity('uncommon')
+
+  event.create('advanced_circuit_board')
+    .displayName('Advanced Circuit Board')
+    .texture('kubejs:item/advanced_cw_circuit_board')
+    .tooltip(['A piece of tech used in some highly advanced recipes'])
+    .rarity('rare')
+
+     //Script wrote by Onmod, textures done by MarbledNull
+    event.create('cables')
+    .displayName('Cables')
+    .texture('kubejs:item/cables')
+    .tooltip(['A collection of wires that might be useful for something...'])
+    .rarity('uncommon')
+
+    event.create('defibrillator_casing')
+    .displayName('Defibrillator Casing')
+    .texture('kubejs:item/defib_casing')
+    .tooltip(['A key component in the crafting of the defibrillator. Obviously.'])
+    .rarity('uncommon')
+
+    event.create('shock_component')
+    .displayName('Shock Component')
+    .texture('kubejs:item/shock_component')
+    .tooltip(['Quite a shocking piece of tech that might be useful for... shocking.'])
+    .rarity('uncommon')
+});
+
+//Script inspired from KCtops6, wrote by Onmod
+ItemEvents.modification(event => {
+  event.modify('the_deep_void:bismuth_netherite_helmet', item => {
+  //  item.maxDamage = 
+    item.armorProtection = 6
+   // item.armorToughness = 
+    //item.armorKnockbackResistance =
+  })
+
+  event.modify('the_deep_void:bismuth_netherite_chestplate', item => {
+  //  item.maxDamage = 
+    item.armorProtection = 11
+   // item.armorToughness = 
+    //item.armorKnockbackResistance =
+  })
+
+  event.modify('the_deep_void:bismuth_netherite_leggings', item => {
+  //  item.maxDamage = 
+    item.armorProtection = 9
+   // item.armorToughness = 
+    //item.armorKnockbackResistance =
+  })
+
+  event.modify('the_deep_void:bismuth_netherite_boots', item => {
+  //  item.maxDamage = 
+    item.armorProtection = 6
+   // item.armorToughness = 
+    //item.armorKnockbackResistance =
+  })
+
 })
-StartupEvents.registry('fluid', event => {
-    event.create('molten_rubber')
-      .thickTexture(2302244)
-      .bucketColor(2302244)
-      .displayName('Molten Rubber')
-})
-*/
+
+  
+
+  
