@@ -18,6 +18,4 @@
 	avoidVillagesAdjacent = false
 	#If true then avoid flattening the terrain around the city in case there was a structure that was avoided
 	avoidFlattening = true
-	#If true then avoid generating cities in chunks with villages
-	avoidVillages = true
 
